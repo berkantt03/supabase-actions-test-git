@@ -3,3 +3,4 @@ CREATE TABLE test_tablosu (
   name text
 );
 -- test tetiklemesi
+--test 2
