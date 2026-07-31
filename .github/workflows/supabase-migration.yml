@@ -1,11 +1,11 @@
 name: Supabase Database Migrations
 
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'supabase/migrations/**'
+#on:
+ # push:
+    #branches:
+      #- main
+   # paths:
+      #- 'supabase/migrations/**'
 
 jobs:
   migrate:
