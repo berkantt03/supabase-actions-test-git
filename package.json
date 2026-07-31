@@ -1,0 +1,8 @@
+{
+  "name": "supabase-migration-test",
+  "version": "1.0.0",
+  "description": "Coolify pre-deployment testi icin bos proje",
+  "scripts": {
+    "start": "echo 'Uygulama calisiyor...'"
+  }
+}
