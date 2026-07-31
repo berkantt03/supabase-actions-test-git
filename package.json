@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Coolify pre-deployment testi icin bos proje",
   "scripts": {
-    "start": "node -e \"setInterval(() => console.log('Uygulama ayakta bekliyor...'), 60000)\""
+    "start": "npx -y supabase db push --db-url $SUPABASE_DB_URL && node -e \"setInterval(() => console.log('Uygulama ayakta bekliyor...'), 60000)\""
   }
 }
